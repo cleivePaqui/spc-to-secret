@@ -1,4 +1,4 @@
-module spc-to-secret
+module github.com/cleivePaqui/spc-to-secret
 
 go 1.24.3
 
