@@ -5,5 +5,9 @@ Read a SecretProviderClass and create a correspondent Secret file using values f
 You need to be authenticated with AWS CLI to use this tool.
 
 ```bash 
-    go run main.go my-secretproviderclass.yaml output-secret.yaml
+    go install github.com/awslabs/spc-to-secret@latest
+```
+
+```bash 
+    go spc-to-secret my-secretproviderclass.yaml output-secret.yaml
 ```
