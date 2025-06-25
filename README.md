@@ -1,5 +1,5 @@
 # spc-to-secret
-Read a SecretProviderClass and create a correspondent Secret file using values from AWS Secret Service
+Read a SecretProviderClass and create a corresponding Secret file using values from AWS Secrets Manager.
 
 ### Usage
 You need to be authenticated with AWS CLI to use this tool.
